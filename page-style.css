@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background-color: rgb(52, 49, 49); */
+    list-style: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: rgb(52, 49, 49);
+    cursor: pointer;
+    font-size: 25px;
+    transition: .5s;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    background-color: green;
+}
+
+li:hover{
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+#banner{
+    background-image: url('https://assets.xboxservices.com/assets/8b/4c/8b4c9064-f29a-4fc8-accb-abef5919adfa.jpg?n=2878711_Hero-Image-1084_1920x831.jpg');
+    height: 450px;
+    width: 100%;
+    background-position: 50% 85%;
+    background-size: cover;
+}
+
+.trailer-estreia{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    background-color: rgb(21, 21, 21);
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+}
+
+.sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-left: 30px;
+    text-align:justify;
+}
+
+.description{
+    color: green;
+    font-size: 19px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+}
+
+.button{
+    margin-top: 20px;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 10px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    background-color: white;
+    color: rgb(21, 21, 21);
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    /* Fazer com que o botão fique piscando! verde e branco 
+    Ou quando pasar o mouse em cima aumentar o brilho branco*/
+
+}
+
+.button:hover{
+    background-color: green;
+}
