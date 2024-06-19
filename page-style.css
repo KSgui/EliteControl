@@ -166,3 +166,28 @@ li:hover{
 .banner-3{
     background-image: url('https://t2.tudocdn.net/634593?w=824&h=494');
 }
+
+footer{
+    background-color: rgb(21, 21, 21);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    margin-top: -50px;
+    color: #fff;
+   font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
